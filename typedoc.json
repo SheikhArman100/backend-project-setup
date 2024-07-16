@@ -1,0 +1,22 @@
+{
+  "entryPoints": ["src"],
+  "exclude": [
+    "src/app.ts",
+    "src/server.ts",
+    "src/config/index.ts",
+    "src/constant/index.ts",
+    "src/enums/user.ts",
+    "src/interfaces/index.d.ts",
+    "src/app/routes/index.ts",
+    "src/app/modules/score/score.constant.ts",
+    "**/*.model.ts",
+    "**/*.validation.ts",
+    "**/*.route.ts",
+    "**/*.controller.ts"
+  ],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "name": "Merchant App",
+  "excludeExternals": true,
+  "disableSources": true
+}
